@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/rodape.css">
+    <link rel="stylesheet" href="/css/cadastroUsuario.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Cadastro de Usuarios</title>
+</head>
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <img src="/img/icons8-gerenciador-de-download-da-internet.svg" class="bi me-2" width="40" height="32" alt="Ícone personalizado">
+            <span class="fs-4">Gerenciador de Tarefas</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="/index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="/html/cadastroUsuario.html" class="nav-link active" aria-current="page">Cadastro de Usuarios</a></li>
+            <li class="nav-item"><a href="/html/cadastroTarefas.html" class="nav-link">Cadastro de Tarefas</a></li>
+            <li class="nav-item"><a href="/html/gerenciarTarefa.html" class="nav-link">Gerenciar Tarefa</a></li>
+          </ul>
+        </header>
+    </div>
+    
+    <main>
+        <section>
+            <h1 class="titulo">Cadastro de Usuarios</h1>
+        </section>
+
+        <section class="caixa">
+            <form class="formulario" action="#" method="post">
+                <p class="user_paragrafo">Usuario: </p>
+                <input class="user_input" type="text" name="text" id="" placeholder="Digite seu nome de usuario">
+
+                <p class="email_paragrafo">Email: </p>
+                <input class="email_input" type="email" name="email" id="" placeholder="Digite seu email">
+
+                <p class="senha_paragrafo">Senha: </p>
+                <input class="senha_input" type="password" name="senha" id="" placeholder="Digite sua senha">
+
+                <button class="enviar_botao" type="submit" id="botao_enviar">ENVIAR</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p class="rodapeTexto">&copy;2025 Ganyk Direitos Reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

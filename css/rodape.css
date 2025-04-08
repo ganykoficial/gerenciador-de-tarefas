@@ -1,0 +1,14 @@
+.rodape{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #00006a;
+    text-align: center;
+}
+.rodapeTexto{
+    padding: 1rem;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: lighter;
+}
